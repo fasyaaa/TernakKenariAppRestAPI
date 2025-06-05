@@ -1,0 +1,5 @@
+package com.example.carnary
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
