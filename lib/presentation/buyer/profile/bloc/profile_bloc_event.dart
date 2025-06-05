@@ -1,4 +1,12 @@
 part of 'profile_bloc_bloc.dart';
 
 @immutable
-sealed class ProfileBlocEvent {}
+sealed class ProfileBuyerEvent {}
+
+class AddProfileBuyerEvent extends ProfileBuyerEvent {
+  final BuyerProfileRequestModel requestModel;
+
+  AddProfileBuyerEvent({required this.requestModel});
+}
+
+class GetProfileBuyerEvent extends ProfileBuyerEvent{}
