@@ -1,6 +1,8 @@
 import 'package:carnary/presentation/buyer/profile/bloc/profile_bloc_bloc.dart';
+import 'package:carnary/presentation/buyer/profile/widget/profile_buyer_form.dart';
 import 'package:carnary/presentation/buyer/profile/widget/profile_view_buyer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class BuyerProfileScreen extends StatefulWidget {
   const BuyerProfileScreen({super.key});
