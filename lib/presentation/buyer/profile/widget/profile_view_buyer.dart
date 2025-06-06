@@ -1,5 +1,6 @@
 import 'package:carnary/core/extensions/build_context_ext.dart';
 import 'package:carnary/data/model/response/buyer/buyer_profile_response_model.dart';
+import 'package:carnary/presentation/buyer/home/buyer_home_screen.dart';
 import 'package:flutter/material.dart';
 
 class ProfileViewBuyer extends StatelessWidget {
