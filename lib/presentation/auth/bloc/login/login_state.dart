@@ -8,7 +8,7 @@ final class LoginInitial extends LoginState {}
 final class LoginLoading extends LoginState {}
 
 final class LoginSuccess extends LoginState {
-  final AuthResponseModel responseModel;
+  final LoginResponseModel responseModel;
   LoginSuccess({required this.responseModel});
 }
 
